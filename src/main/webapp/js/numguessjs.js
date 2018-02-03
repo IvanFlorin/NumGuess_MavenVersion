@@ -45,14 +45,14 @@
 
                  if(keySuccess=="false") {
                      if (keyHint == "higher")
-                         document.getElementById("serverResponse").innerHTML = "WRONG, Try a Higher one!";
+                         document.getElementById("serverResponse").innerHTML = "Gresit, nu asta e maneaua. Alege un numar mai mare!";
                      else if (keyHint == "lower")
-                         document.getElementById("serverResponse").innerHTML = "WRONG, Try a Lower one!";
+                         document.getElementById("serverResponse").innerHTML = "Gresit, nu asta e maneaua. Alege un numar mai mic!";
                  }
                  else
                  if(keySuccess=="true")
                  {
-                     document.getElementById("serverResponse").innerHTML = "Congrats, you guessed the number " + document.getElementById("number").value + " after " + keyNrGuesses + " guesses."+ "your time is: " + keyTimp;
+                     document.getElementById("serverResponse").innerHTML = "Felicitari, ai ghicit maneaua " + document.getElementById("number").value + " dupa " + keyNrGuesses + " incercari."+ "In doar " + keyTimp + "  secunde";
                  }
              }
          }

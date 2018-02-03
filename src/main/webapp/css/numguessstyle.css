@@ -27,7 +27,7 @@ h1 {
 #tagline p {
     font-style: italic;
     font-family: Georgia, Times, serif;
-    background-image: url("http://www.mulierchile.com/music-background-wallpaper/music-background-wallpaper-012.jpg");
+    background-image: url('http://www.mulierchile.com/music-background-wallpaper/music-background-wallpaper-012.jpg');
     border-top: 3px solid #7da5d8;
     border-bottom: 3px solid #7da5d8;
     padding-top: .2em;

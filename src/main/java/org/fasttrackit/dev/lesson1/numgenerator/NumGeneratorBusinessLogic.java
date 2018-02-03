@@ -73,13 +73,15 @@ public class NumGeneratorBusinessLogic {
 
             pornire=System.currentTimeMillis();
 
-
         }
-
-
-
+        
         numberOfGuesses++;
         if (guessNumber == generatedNumber) {
+
+         Email e=new Email("florin.traista@gmail.com");
+            e.sendEmailUsingGmail();
+
+
             hint="";
             successfulGuess = true;
 
